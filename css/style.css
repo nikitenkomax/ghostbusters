@@ -394,6 +394,10 @@ body {
   }
   .header {
     height: 80px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 99;
   }
   .m-menu {
     display: none;
@@ -445,7 +449,7 @@ body {
     margin-bottom: 30px;
   }
   .film {
-    padding-top: 50px;
+    padding-top: 110px;
     padding-bottom: 60px;
   }
   .film-wrapper {
